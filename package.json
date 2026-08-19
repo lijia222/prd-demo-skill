@@ -1,0 +1,31 @@
+{
+  "name": "@cauthy/prd-demo-skill",
+  "version": "1.0.0",
+  "description": "Agent-independent PRD and Demo workflow skill",
+  "license": "MIT",
+  "private": false,
+  "type": "commonjs",
+  "bin": {
+    "prd-demo-skill": "installer/index.js"
+  },
+  "files": [
+    "core/",
+    "adapters/",
+    "installer/",
+    "manifest.json",
+    "VERSION",
+    "LICENSE",
+    "README.md",
+    "SECURITY.md",
+    "CHANGELOG.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "check": "node tools/check.js"
+  }
+}

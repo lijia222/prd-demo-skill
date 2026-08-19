@@ -1,0 +1,19 @@
+{
+  "name": "prd-demo",
+  "distribution": "@cauthy/prd-demo-skill",
+  "version": "1.0.0",
+  "management": {
+    "marker": "prd-demo-managed",
+    "versionFile": ".prd-demo-version.json"
+  },
+  "agents": {
+    "claude": "adapters/claude-code/",
+    "codex": "adapters/codex/",
+    "vscode-copilot": "adapters/vscode-copilot/"
+  },
+  "privacy": {
+    "telemetry": false,
+    "readsProjectContent": false,
+    "uploadsProjectContent": false
+  }
+}
